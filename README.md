@@ -2,7 +2,7 @@
 
 This project is a study that seeks to find a **financial control solution** for the user, recording their expenses and earnings and providing insights through graphs and tables.
 
-Developed during the undergraduate course in Systems Analysis and Development at FIAP, this repository contains the progress of each stage of the development of the proposed project divided into phases.
+Developed during the undergraduate course in **Systems Analysis and Development** at **FIAP**, this repository contains the progress of each stage of the development of the proposed project divided into phases.
 
 ## 1 - Development Environment
 
