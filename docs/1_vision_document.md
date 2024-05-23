@@ -1,4 +1,4 @@
-# ELABORANDO O DOCUMENTO VISÃO DO SISTEMA – MASTERSPEND
+# PREPARING THE SYSTEM VISION DOCUMENT – MASTERSPEND
 
 Para indivíduos que desejam planejar seus orçamentos de forma flexível e gerenciar suas finanças diárias com eficiência.
 
@@ -12,4 +12,4 @@ Ao contrário da Organnizze.
 
 Nosso produto permite que a organização financeira ocorra da maneira mais conveniente para as suas necessidades, em qualquer lugar!
 
-[ :poodle: VOLTAR](../README.md)
+[:rewind: GO BACK](../README.md)
