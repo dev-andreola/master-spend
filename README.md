@@ -16,8 +16,7 @@ Finally, an introduction to the **Python** language was presented, covering expl
 
 During Phase 2, we will move forward with detailed system design documentation, deepening our knowledge in **time and cost management**. Furthermore, we will begin the study of UML (Unified Modeling Language), starting with the **Use Case Diagram** to visualize and model the system requirements.
 
-We also build the [application prototype](https://www.figma.com/design/ZeCkkVX6UapOQJgBkyMNfc/Fintech?node-id=0-1)
-, using **wireframes** or drawings to define the structure of the screens. We learned important **UX** concepts and developed the first Master Spend screens with the **Figma** design tool.
+We also build the [application prototype](https://www.figma.com/design/ZeCkkVX6UapOQJgBkyMNfc/Fintech?node-id=0-1), using **wireframes** or drawings to define the structure of the screens. We learned important **UX** concepts and developed the first Master Spend screens with the **Figma** design tool.
 
 At the same time, we deepened our studies in **Python** and were challenged to solve several real problems using the language. Below, I present some of the challenges and solutions I developed:
 
@@ -25,3 +24,7 @@ At the same time, we deepened our studies in **Python** and were challenged to s
 - [Interest Table for Vehicle Financing](/challenges/2_vehicle_interest_table.py)
 - [Debt Interest Table](/challenges/2_debt_interest_table.py)
 - [Income Tax Calculator](/challenges/2_income_tax_calculator.py)
+
+## 3 - Modeling
+
+Database Modeling and Structuring: Entity-Relationship Modeling, Aggregation, Normalization, and Physical Model Development. We understand the effective use of databases, applying appropriate methods and best practices for efficient data storage.
