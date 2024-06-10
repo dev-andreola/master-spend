@@ -29,6 +29,6 @@ At the same time, we deepened our studies in **Python** and were challenged to s
 
 Database Modeling and Structuring: **Entity-Relationship Modeling**, Aggregation, Normalization, and Physical Model Development. We understand the effective use of databases, applying appropriate methods and **best practices** for efficient data storage.
 
-During this phase I was challenged to create a **logical data model** of a [contact book](/url), using Oracle Data Modeler I was able to graphically represent concepts such as entities, attributes and relationships.
+During this phase I was challenged to create a **logical data model** of a [contact book](/challenges/3-contact-book-db), using Oracle Data Modeler I was able to graphically represent concepts such as entities, attributes and relationships.
 
-In another interesting project that was proposed, I developed the complete [Fintech data model](/url), which allowed me to create and visualize the project's infrastructure.
+In another interesting project that was proposed, I developed the complete [Fintech data model](/challenges/3-fintech-db), which allowed me to create and visualize the project's infrastructure.
