@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D70BD6E2-2542-B8B9-1354-281A23A2AFC8" name="T_TELEFONE">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-14 19:03:39 UTC</createdTime>
+<ownerDesignName>vitor_andreolaRM555347</ownerDesignName>
+<engineerTo>
+<item key="748CF313-E7B8-BE92-6135-25ED19F01716" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_telefone" id="A3CC5BFE-F004-9035-C803-608B00B0A2F6">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-14 19:03:47 UTC</createdTime>
+<ownerDesignName>vitor_andreolaRM555347</ownerDesignName>
+<engineerTo>
+<item key="748CF313-E7B8-BE92-6135-25ED19F01716" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_contato" id="8309A9FD-D1F3-CE20-7466-1894EBD6479C">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-14 19:07:43 UTC</createdTime>
+<generatorID>B9DFFFF6-CED1-3008-1F0C-85057947F32B</generatorID>
+<ownerDesignName>vitor_andreolaRM555347</ownerDesignName>
+<engineerTo>
+<item key="748CF313-E7B8-BE92-6135-25ED19F01716" value="true"/>
+</engineerTo>
+<referedAttribute>95156C4C-88FE-72BC-D541-209A6B132E1E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_marcador" id="3B47853F-07E9-388E-83D5-3374DB293CE5">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-14 19:05:31 UTC</createdTime>
+<ownerDesignName>vitor_andreolaRM555347</ownerDesignName>
+<engineerTo>
+<item key="748CF313-E7B8-BE92-6135-25ED19F01716" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddd" id="9E46507C-6526-1CA5-AD97-B1598B459DA1">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-14 19:04:18 UTC</createdTime>
+<ownerDesignName>vitor_andreolaRM555347</ownerDesignName>
+<engineerTo>
+<item key="748CF313-E7B8-BE92-6135-25ED19F01716" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="A7D5A65C-A9B0-3241-A273-C8B8E56D4A94">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-14 19:04:00 UTC</createdTime>
+<ownerDesignName>vitor_andreolaRM555347</ownerDesignName>
+<engineerTo>
+<item key="748CF313-E7B8-BE92-6135-25ED19F01716" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F530E319-E889-1EB5-DC29-BF031443C40A" name="T_TELEFONE PK">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-14 19:03:59 UTC</createdTime>
+<ownerDesignName>vitor_andreolaRM555347</ownerDesignName>
+<engineerTo>
+<item key="748CF313-E7B8-BE92-6135-25ED19F01716" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3CC5BFE-F004-9035-C803-608B00B0A2F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

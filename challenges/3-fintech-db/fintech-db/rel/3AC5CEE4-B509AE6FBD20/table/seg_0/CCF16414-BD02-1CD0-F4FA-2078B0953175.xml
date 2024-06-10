@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCF16414-BD02-1CD0-F4FA-2078B0953175" name="T_FTC_USUARIO">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 19:09:23 UTC</createdTime>
+<generatorID>531BA6E2-643E-52EB-FC0C-A0DAC575FEFF</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_usuario" id="08E49330-316A-C2C6-3C60-1E5602698749">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 19:09:23 UTC</createdTime>
+<generatorID>922DD8DF-37C8-6AAF-02BA-E58375C3BF53</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_usuario" id="7DF4AAD7-9F9A-BBB4-6F74-800AD4A652CF">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 19:09:23 UTC</createdTime>
+<generatorID>0D399640-8E45-6BFC-E3B7-448350701B92</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_usuario" id="FBD411F7-AE05-7F73-9736-4A54AEE33DA1">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 19:09:23 UTC</createdTime>
+<generatorID>8E324510-A2EE-9820-043F-3E41D50B5C73</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imagem_usuario" id="3443DAB9-D6F7-EAFA-77EC-318737E0D436">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 19:09:23 UTC</createdTime>
+<generatorID>2F85B65D-079C-4BCE-2ADC-7A1C8175348E</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C80CA45-3D53-9BAC-4DA8-002EE623FD3E" name="T_FTC_USUARIO_PK">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 19:09:23 UTC</createdTime>
+<generatorID>F6198AE3-3157-8C23-B967-DC184C5E8ED1</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E49330-316A-C2C6-3C60-1E5602698749"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

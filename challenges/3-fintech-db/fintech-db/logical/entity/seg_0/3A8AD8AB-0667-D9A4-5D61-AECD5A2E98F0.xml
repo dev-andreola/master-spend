@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A8AD8AB-0667-D9A4-5D61-AECD5A2E98F0" name="T_FTC_LANCAMENTO">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-22 23:45:52 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_lancamento" id="6F9ED224-0483-31D8-9206-B2E9C4283951">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-22 23:48:02 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_conta" id="DE6217A3-A10A-2DDF-E605-DCD806D57B47">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 01:29:17 UTC</createdTime>
+<generatorID>D94EDD10-4095-E9B6-86B4-1EFD596B9DF8</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<referedAttribute>A8CE49F4-A1FE-F9DF-01A1-11E4995523FA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_categoria" id="7E04A894-C5FB-F179-48D8-0D40669BBFDC">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 01:31:19 UTC</createdTime>
+<generatorID>F3920A31-8CD9-BF45-BBF3-82D01032FDA9</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<referedAttribute>B0A578BC-16E4-97B1-3ED8-A5725E7D9D04</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_lancamento" id="8F9D1D68-1AD9-79F8-DAFF-1570E835D204">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-22 23:46:06 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_lancamento" id="24D6C218-1F87-1EF7-3028-EC404C6BAB37">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-22 23:46:22 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_lancamento" id="EF054498-B809-E68E-F617-0A17F9BB3D9E">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-22 23:47:45 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D16CE39-FFF8-1E6B-997E-C729E4A29C81" name="T_FTC_LANCAMENTO PK">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-22 23:48:06 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F9ED224-0483-31D8-9206-B2E9C4283951</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="291ABBD7-E666-970E-2EF1-77CE25488D40" name="T_FTC_CATEGORIA">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-22 23:50:19 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_categoria" id="B0A578BC-16E4-97B1-3ED8-A5725E7D9D04">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-22 23:50:25 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_categoria" id="B9E246DD-644E-3C2F-E2CD-E4D3062F2215">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-22 23:50:33 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A5C2595-7751-2C43-5370-67AA9628D9D7" name="T_FTC_CATEGORIA PK">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-22 23:50:31 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0A578BC-16E4-97B1-3ED8-A5725E7D9D04</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

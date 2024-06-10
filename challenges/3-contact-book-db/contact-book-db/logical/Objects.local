@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="54D86F01-C3C8-01F7-1D2B-60A42CD7C553" name="T_CONTATO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="ABA24CD5-AE92-DAA5-BD23-E2872669387E" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="3792C889-0623-74F4-46B3-4504DB1A19D4" name="T_EMAIL" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="ABA24CD5-AE92-DAA5-BD23-E2872669387E" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D70BD6E2-2542-B8B9-1354-281A23A2AFC8" name="T_TELEFONE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="ABA24CD5-AE92-DAA5-BD23-E2872669387E" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="B9DFFFF6-CED1-3008-1F0C-85057947F32B" name="possui" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="ABA24CD5-AE92-DAA5-BD23-E2872669387E" propertySourceId="54D86F01-C3C8-01F7-1D2B-60A42CD7C553" propertyTargetId="D70BD6E2-2542-B8B9-1354-281A23A2AFC8"/>
+   <object objectType="Relation" objectID="5D1676FC-0B3A-D825-C644-49E696C4C542" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="ABA24CD5-AE92-DAA5-BD23-E2872669387E" propertySourceId="54D86F01-C3C8-01F7-1D2B-60A42CD7C553" propertyTargetId="3792C889-0623-74F4-46B3-4504DB1A19D4"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F527DA2E-0884-BA1C-FA1B-7189BCB9833A" name="T_FTC_CONTA">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 19:09:23 UTC</createdTime>
+<generatorID>368FA720-91C2-95BC-4BD8-AB5F9F79F70F</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_conta" id="3C763DE3-129D-7A1E-574F-3B0B15443E5E">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 19:09:23 UTC</createdTime>
+<generatorID>A8CE49F4-A1FE-F9DF-01A1-11E4995523FA</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FTC_USUARIO_cd_usuario" id="DD6C9A91-4ED9-2BEA-A6F7-C9C6DA12D8E7">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 19:09:23 UTC</createdTime>
+<generatorID>82A79CFC-33D4-2D19-5F82-7844E9ED089C</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BDFEA99-145F-C886-835C-90A91D6717CE" referredColumn="08E49330-316A-C2C6-3C60-1E5602698749"/>
+</associations>
+</Column>
+<Column name="nm_conta" id="3FD61E74-7A78-C513-47C2-88ACFBD31F88">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 19:09:23 UTC</createdTime>
+<generatorID>F2EC9D4F-2CF0-ADAD-F4D1-9206A2C28458</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_saldo" id="7E106770-470A-B7C5-E8D0-C53BFB86E80B">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 19:09:23 UTC</createdTime>
+<generatorID>921EDF9F-C776-6DCF-01B2-69F12ABEAE41</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="023CD03C-1AED-2F99-FC7D-D73B2DBE2D90" name="T_FTC_CONTA_PK">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 19:09:23 UTC</createdTime>
+<generatorID>16485BC6-7C46-09DC-7429-C782F5E3FF4D</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C763DE3-129D-7A1E-574F-3B0B15443E5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1A510AB-EEA0-73AD-26CD-1E3F0F61CC80" name="T_FTC_CONTA_T_FTC_USUARIO_FK">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 19:09:23 UTC</createdTime>
+<generatorID>2EDFAD72-EEFC-3445-03E1-ECF34D9F16B7</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD6C9A91-4ED9-2BEA-A6F7-C9C6DA12D8E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

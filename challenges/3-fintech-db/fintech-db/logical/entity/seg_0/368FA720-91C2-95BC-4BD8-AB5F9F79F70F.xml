@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="368FA720-91C2-95BC-4BD8-AB5F9F79F70F" name="T_FTC_CONTA">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-22 23:40:32 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_conta" id="A8CE49F4-A1FE-F9DF-01A1-11E4995523FA">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-22 23:41:00 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="82A79CFC-33D4-2D19-5F82-7844E9ED089C">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-23 01:18:52 UTC</createdTime>
+<generatorID>2EDFAD72-EEFC-3445-03E1-ECF34D9F16B7</generatorID>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<referedAttribute>922DD8DF-37C8-6AAF-02BA-E58375C3BF53</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_conta" id="F2EC9D4F-2CF0-ADAD-F4D1-9206A2C28458">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-22 23:44:32 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_saldo" id="921EDF9F-C776-6DCF-01B2-69F12ABEAE41">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-22 23:41:15 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16485BC6-7C46-09DC-7429-C782F5E3FF4D" name="T_FTC_CONTA PK">
+<createdBy>devan</createdBy>
+<createdTime>2024-05-22 23:53:06 UTC</createdTime>
+<ownerDesignName>db</ownerDesignName>
+<engineerTo>
+<item key="3AC5CEE4-3D36-D2C9-690A-B509AE6FBD20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A8CE49F4-A1FE-F9DF-01A1-11E4995523FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
