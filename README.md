@@ -32,3 +32,11 @@ Database Modeling and Structuring: **Entity-Relationship Modeling**, Aggregation
 During this phase I was challenged to create a **logical data model** of a [contact book](/challenges/3-contact-book-db), using Oracle Data Modeler I was able to graphically represent concepts such as entities, attributes and relationships.
 
 In another interesting project that was proposed, I developed the complete [Fintech data model](/challenges/3-fintech-db), which allowed me to create and visualize the project's infrastructure.
+
+## 4 - View
+
+At this stage, I learned **how the internet works**. Concepts such as TCP/IP protocols, servers, domains, world wide web and SEO made me understand the internet processes more clearly.
+
+Soon after, I was introduced in detail to HTML, the markup language **used to insert content** into websites. Very important concepts such as semantic HTML, forms, accessibility and SEO were emphasized.
+
+CSS was presented next, with practical examples of integration with HTML and the construction of **responsive layouts and designs**.
